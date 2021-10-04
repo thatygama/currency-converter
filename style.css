@@ -20,6 +20,7 @@ form{
 form > h1{
     color:#FFFFFF;
     font-weight: 900;
+    padding-top: 10px;
 }
 form > h2{
     color:#FFFFFF;
@@ -141,6 +142,7 @@ footer > a:hover, footer > a:focus{
 }
 
 @media screen and (max-width: 600px) {
+    
     #form{
         
         width: 40%;
@@ -159,5 +161,9 @@ footer > a:hover, footer > a:focus{
     #form > h3{
         margin: 15px 0px 15px;
         font-size: 15px;
+    }
+
+    #chooseForm > img{
+        border-bottom: 6px solid #262223;
     }
 }
