@@ -8,7 +8,9 @@
 
 <p>Direct link!: https://thatygama.github.io/currency-converter/ </p>
 
+![displays](https://user-images.githubusercontent.com/90471309/135780006-824074f4-3dec-4175-a474-b1c06a6139a4.jpg)
 
+![currency-converter](https://user-images.githubusercontent.com/90471309/135780001-9cd9ced4-e31f-4d6e-810c-4d906ae85f57.gif)
 
 <div>
 <h3>Technologies</h3>
