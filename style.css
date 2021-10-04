@@ -1,0 +1,163 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #262223;
+}
+form{
+    background-color: #262223;
+}
+
+form > h1{
+    color:#FFFFFF;
+    font-weight: 900;
+}
+form > h2{
+    color:#FFFFFF;
+    font-size: 20px;
+}
+
+#chooseForm{
+    text-align: center;
+    position: relative;
+    z-index: 9;
+    background: rgb(241, 192, 87);
+    height: 500px;
+    display: flex;
+    
+}
+
+#chooseForm:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 20%;
+    bottom: 0;
+    left: 0;
+    background: rgb(216, 208, 208);
+
+}
+#chooseForm > img{
+    overflow: hidden;
+}
+
+#form{
+    width: 40%;
+    min-width: 410px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgb(241, 192, 87);
+    border-radius: 30px;
+    box-shadow: 5px 5px rgba(68, 60, 56, 0.6);
+    position: absolute;
+    top: 50px;
+    left: 30px;
+
+}
+
+#form > h3{
+    margin: 15px 0px 15px;
+    font-size: 18px;
+}
+
+#form > #value{
+    margin-bottom: 10px;
+    border: 1px solid rgb(211, 159, 48);
+}
+
+#currency > h3{
+    margin: 8px 0px 15px;
+    font-size: 24px;
+}
+
+#currency > #real > input{
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(241, 192, 87);
+    margin-bottom: 5px;
+    padding: 5px 15px;
+}
+
+#currency > #real > input:hover{
+    background-color: rgb(211, 159, 48);
+}
+#currency > #real > input:active, #currency > #real > input:focus{
+    background-color: rgb(58, 55, 48);
+    color: rgb(211, 159, 48);
+}
+
+::placeholder{
+    text-align: center;
+    padding-left: 12px;
+    font-size: 12px;
+}
+
+#currency > #deE > input{
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(241, 192, 87);;
+    padding: 5px 15px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+#currency > #deE > input:hover{
+    background-color: rgb(211, 159, 48);
+}
+#currency > #deE > input:active, #currency > #deE > input:focus{
+    background-color: rgb(58, 55, 48);
+    color: rgb(211, 159, 48);
+}
+
+#value{
+    display: block;
+    margin: auto;
+}
+
+footer{
+    background-color: #262223;
+}
+
+footer > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+    padding: 10px;
+}
+
+footer > a:hover, footer > a:focus{
+    font-weight: bold;
+    color: rgb(211, 159, 48);
+}
+
+@media screen and (max-width: 600px) {
+    #form{
+        
+        width: 40%;
+        min-width: 350px;
+        height: 300px;
+        background-color: rgba(255, 255, 255, 0.9);
+        border: 1px solid rgb(241, 192, 87);
+        border-radius: 30px;
+        box-shadow: 5px 5px rgba(68, 60, 56, 0.6);
+        position: absolute;
+        top: 50px;
+        transform: translateX(-8%);
+        
+    }
+
+    #form > h3{
+        margin: 15px 0px 15px;
+        font-size: 15px;
+    }
+}
