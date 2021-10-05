@@ -4,7 +4,7 @@
 <p>\/ Use this automatic calculator to convert your money into another currency.</p>
 <p>\/ The conversion works by collecting data from an API.</p>
 <p>\/ Currencies: Dolar, Euro <-> Real </p>
-<p>\/ I'm still working on this project and learning in order to optimize this code.</p>
+<p>\/ I'm still working on this project and learning to improve this code.</p>
 
 <p>Direct link!: https://thatygama.github.io/currency-converter/ </p>
 
